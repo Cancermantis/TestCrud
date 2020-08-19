@@ -1,108 +1,12 @@
 {
-  "name": "lancer-battlegroup-tools",
-  "title": "Lancer Battlegroup Tools",
-  "description": "A module compendiums for macros as well as actor and item templates to use with the Lancer: Battlegroup fleet combat game (property of Massif Press)",
+  "name": "test-module",
+  "title": "Test Module",
+  "description": "Tests out downloading a module hosted on a private repository",
+  "version": "0.2.1",
+  "minimumCoreVersion": "0.4.0",
+  "compatibleCoreVersion": "0.6.99",
   "author": "Cancermantis",
-  "version": "1.0.0",
-  "minimumCoreVersion": "0.6.5",
-  "compatibleCoreVersion": "0.7.0",
-  "system" : "worldbuilding"
-  "packs": [
-    {
-      "name": "battlegroupitemtemplates",
-      "label": "Battlegroup Item Templates",
-      "path": "packs/battlegroupitemtemplates.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "battlegroupactortemplates",
-      "label": "Battlegroup Actor Templates",
-      "path": "packs/battlegrouptemplates.db",
-      "entity": "Actor",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "battlegroupmacros",
-      "label": "Battlegroup Macros",
-      "path": "packs/battlegroupmacros.db",
-      "entity": "Macro",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-escorts",
-      "label": "Lancer: Battlegroup Escorts",
-      "path": "packs/lancer-battlegroup-escorts.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-frigates",
-      "label": "Lancer: Battlegroup Frigates",
-      "path": "packs/lancer-battlegroup-frigates.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-carriers",
-      "label": "Lancer: Battlegroup Carriers",
-      "path": "packs/lancer-battlegroup-Carriers.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-battleships",
-      "label": "Lancer: Battlegroup Battleships",
-      "path": "packs/lancer-battlegroup-battleships.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-systems",
-      "label": "Lancer: Battlegroup Systems",
-      "path": "packs/lancer-battlegroup-systems.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-weapons-auxiliary",
-      "label": "Lancer: Battlegroup Weapons (Auxiliary)",
-      "path": "packs/lancer-battlegroup-weapons-auxiliary.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-weapons-primary",
-      "label": "Lancer: Battlegroup Weapons (Primary)",
-      "path": "packs/lancer-battlegroup-weapons-primary.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-weapons-superheavy",
-      "label": "Lancer: Battlegroup Weapons (Superheavy)",
-      "path": "packs/lancer-battlegroup-weapons-superheavy.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    },
-    {
-      "name": "lancer-battlegroup-wings",
-      "label": "Lancer: Battlegroup Wings",
-      "path": "packs/lancer-battlegroup-wings.db",
-      "entity": "Item",
-      "module": "lancer-battlegroup-tools",
-      "system": "worldbuilding"
-    }
-  ]
+  "url": "https://github.com/Cancermantis/TestCrud",
+  "manifest": "https://github.com/Cancermantis/TestCrud/blob/master/module.json",
+  "download": "https://github.com/Cancermantis/TestCrud/blob/master/master.zip"
 }
